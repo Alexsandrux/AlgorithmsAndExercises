@@ -6,4 +6,4 @@ SOURCE: https://leetcode.com/problems/longest-common-prefix/description/
 
 RESULT: 
 
-![logestCommonPrefix1]()
+![logestCommonPrefix1](https://github.com/Alexsandrux/AlgorithmsAndExercises/blob/main/Exercises/LongestCommonPrefix/logestCommonPrefix1.png)
