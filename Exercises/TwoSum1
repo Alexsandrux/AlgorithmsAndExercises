@@ -1,0 +1,25 @@
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int newTarget = target;
+        int[] solution = new int[2];
+        solution[0] = -1;
+        solution[1] = -1;
+
+        for (int i = 0; i < nums.length; i++) {
+            newTarget = target;
+
+            solution[0] = i;
+            newTarget = target - nums[i];
+
+            for (int j = i + 1; j < nums.length; j++) {
+                if (newTarget == nums[j]) {
+                    solution[1] = j;
+                    return solution;
+                }
+            }
+
+        }
+        return solution;
+
+    }
+}
